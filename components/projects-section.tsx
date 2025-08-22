@@ -12,7 +12,7 @@ const projects = [
   },
   {
     id: 2,
-    title: "Deckstra",
+    title: "Devkstra",
     image: "/img3.png",
     category: "A hackathons and community platform for developers ",
   },
