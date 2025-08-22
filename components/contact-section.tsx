@@ -39,7 +39,7 @@ export default function ContactSection() {
             <span className="font-medium italic instrument">Get</span> In Touch
           </h2>
           <p className="text-white/70 text-sm font-light max-w-lg mx-auto">
-            Ready to create something amazing? Let's discuss your next shader project
+            Ready to create something amazing? Let&apos;s discuss your next shader project
           </p>
         </motion.div>
 
