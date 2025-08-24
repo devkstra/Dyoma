@@ -1,10 +1,11 @@
 "use client"
 
 import { motion } from "framer-motion"
+import Link from "next/link"
 
 export default function AboutSection() {
   return (
-    <section className="relative z-10 py-24 px-8">
+    <section id="about-us" className="relative z-10 py-24 px-8">
       <div className="max-w-6xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <motion.div
@@ -22,9 +23,11 @@ export default function AboutSection() {
             <p className="text-white/70 text-sm font-light leading-relaxed mb-8">
             We are more than developers; we are architects of efficiency, partners in growth, and pioneers in the next digital frontier.
             </p>
-            <button className="px-8 py-3 rounded-full bg-transparent border border-white/30 text-white font-normal text-xs transition-all duration-200 hover:bg-white/10 hover:border-white/50">
-              Learn More
-            </button>
+            <Link href="/about" className="inline-block">
+              <button className="px-8 py-3 rounded-full bg-transparent border border-white/30 text-white font-normal text-xs transition-all duration-200 hover:bg-white/10 hover:border-white/50">
+                Learn More
+              </button>
+            </Link>
           </motion.div>
 
           <motion.div

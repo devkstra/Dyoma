@@ -26,27 +26,31 @@ export default function ShaderShowcase() {
   return (
     <>
       <LoadingScreen isLoading={isLoading} />
-      <ShaderBackground>
-        <Header />
-        <main>
-          <section id="home">
+      {!isLoading && (
+        <>
+          <Header />
+          <main className="bg-black">
+        <section id="home" className="relative">
+          <ShaderBackground>
             <HeroContent />
-          </section>
-          <section id="features" className="py-20">
-            <ServicesSection />
-          </section>
-          <section id="projects" className="py-20">
-            <ProjectsSection />
-          </section>
-          <section id="about" className="py-20">
-            <AboutSection />
-          </section>
-          <section id="contact" className="py-20">
-            <ContactSection />
-          </section>
-        </main>
-        <Footer />
-      </ShaderBackground>
+          </ShaderBackground>
+        </section>
+        <section id="features" className="py-20">
+          <ServicesSection />
+        </section>
+        <section id="projects" className="py-20">
+          <ProjectsSection />
+        </section>
+        <section id="about" className="py-20">
+          <AboutSection />
+        </section>
+        <section id="contact" className="py-20">
+          <ContactSection />
+        </section>
+          </main>
+          <Footer />
+        </>
+      )}
     </>
   )
 }
