@@ -1,7 +1,8 @@
 "use client"
 
-import { motion, AnimatePresence } from "framer-motion"
+import { motion } from "framer-motion"
 import Link from "next/link"
+import Image from "next/image"
 import { useState, useEffect } from "react"
 
 function AboutHeader() {
@@ -23,15 +24,16 @@ function AboutHeader() {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
-          <a href="/" className="block z-50">
-            <img 
+          <Link href="/" className="block z-50">
+            <Image 
               src="/logo2.png" 
               alt="Dyoma Labs Logo" 
-              className="h-8 md:h-10 w-auto"
               width={147}
               height={40}
+              className="h-8 md:h-10 w-auto"
+              priority
             />
-          </a>
+          </Link>
           
           <div className="flex items-center space-x-4">
             <Link 
