@@ -18,7 +18,7 @@ export default function AboutSection() {
               <span className="font-medium italic instrument">About</span> Our Mission
             </h2>
             <p className="text-white/70 text-sm font-light leading-relaxed mb-6">
-            At Dyoma Labs, our mission is to dismantle the barriers between ambition and reality. We believe that intelligent automation is the cornerstone of modern innovation. By engineering bespoke AI solutions—from intelligent voice agents to custom RAG systems—we empower businesses not just to compete, but to define the future of their industries. 
+            At Dyoma Labs LLP, our mission is to dismantle the barriers between ambition and reality. We believe that intelligent automation is the cornerstone of modern innovation. By engineering bespoke AI solutions—from intelligent voice agents to custom RAG systems—we empower businesses not just to compete, but to define the future of their industries. 
             </p>
             <p className="text-white/70 text-sm font-light leading-relaxed mb-8">
             We are more than developers; we are architects of efficiency, partners in growth, and pioneers in the next digital frontier.

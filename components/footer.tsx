@@ -44,7 +44,7 @@ export default function Footer() {
           className="flex flex-col md:flex-row items-center justify-between gap-8"
         >
           <div className="text-center md:text-left">
-            <p className="text-white/70 text-sm font-light">© 2025 Dyoma Labs. All rights reserved.</p>
+            <p className="text-white/70 text-sm font-light">© 2025 Dyoma Labs LLP. All rights reserved.</p>
           </div>
 
           <div className="flex items-center gap-6">
